@@ -1,0 +1,101 @@
+
+> dev
+> cross-env GAME_ENV=dev concurrently "npm run start:client" "npm run start:server-dev"
+
+[1G[0K[0m[0][0m 
+[0m[0][0m > start:client
+[0m[0][0m > vite
+[0m[0][0m 
+[0m[1][0m 
+[0m[1][0m > start:server-dev
+[0m[1][0m > cross-env GAME_ENV=dev tsx src/server/Server.ts
+[0m[1][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/automation/files/tsconfig.json". See below for details. To disable this message, set the [36mignoreConfigErrors[39m option to true.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/expo/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/slides/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/react-vite/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/video-js/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [31merror when starting dev server:
+[0m[0][0m Error: Port 5000 is already in use
+[0m[0][0m     at Server.onError$1 (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[0m[0][0m     at Server.emit (node:events:524:28)
+[0m[0][0m     at emitErrorNT (node:net:1944:8)
+[0m[0][0m     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+[0m[0][0m 
+[0m[0][0m [0mnpm run start:client exited with code 1[0m
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m No OTLP endpoint and credentials provided, remote logging disabled
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m Starting master process...
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Primary 8568 is running","service":"openfront","severity":"info","timestamp":"2026-04-29T03:30:05.326Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Setting up 2 workers...","service":"openfront","severity":"info","timestamp":"2026-04-29T03:30:05.328Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Instance ID: DEV_ID","service":"openfront","severity":"info","timestamp":"2026-04-29T03:30:05.328Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Started worker 0 (PID: 8585)","service":"openfront","severity":"info","timestamp":"2026-04-29T03:30:05.333Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Started worker 1 (PID: 8586)","service":"openfront","severity":"info","timestamp":"2026-04-29T03:30:05.336Z"}
+[0m[1][0m node:events:502
+[0m[1][0m       throw er; // Unhandled 'error' event
+[0m[1][0m       ^
+[0m[1][0m 
+[0m[1][0m Error: listen EADDRINUSE: address already in use :::3000
+[0m[1][0m [90m    at Server.setupListenHandle [as _listen2] (node:net:1908:16)[39m
+[0m[1][0m [90m    at listenInCluster (node:net:1965:12)[39m
+[0m[1][0m [90m    at Server.listen (node:net:2067:7)[39m
+[0m[1][0m     at startMaster [90m(/home/runner/workspace/[39msrc/server/Master.ts:140:10[90m)[39m
+[0m[1][0m     at main [90m(/home/runner/workspace/[39msrc/server/Server.ts:14:11[90m)[39m
+[0m[1][0m     at <anonymous> [90m(/home/runner/workspace/[39msrc/server/Server.ts:23:1[90m)[39m
+[0m[1][0m [90m    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)[39m
+[0m[1][0m [90m    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)[39m
+[0m[1][0m [90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)[39m
+[0m[1][0m Emitted 'error' event on Server instance at:
+[0m[1][0m [90m    at emitErrorNT (node:net:1944:8)[39m
+[0m[1][0m [90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+[0m[1][0m   code: [32m'EADDRINUSE'[39m,
+[0m[1][0m   errno: [33m-98[39m,
+[0m[1][0m   syscall: [32m'listen'[39m,
+[0m[1][0m   address: [32m'::'[39m,
+[0m[1][0m   port: [33m3000[39m
+[0m[1][0m }
+[0m[1][0m 
+[0m[1][0m Node.js v20.20.0
+[0m[1][0m node:events:502
+[0m[1][0m       throw er; // Unhandled 'error' event
+[0m[1][0m       ^
+[0m[1][0m 
+[0m[1][0m Error: write EPIPE
+[0m[1][0m [90m    at target._send (node:internal/child_process:878:20)[39m
+[0m[1][0m [90m    at target.send (node:internal/child_process:751:19)[39m
+[0m[1][0m [90m    at sendHelper (node:internal/cluster/utils:28:15)[39m
+[0m[1][0m [90m    at send (node:internal/cluster/child:250:10)[39m
+[0m[1][0m [90m    at cluster._setupWorker (node:internal/cluster/child:55:3)[39m
+[0m[1][0m [90m    at initializeClusterIPC (node:internal/process/pre_execution:574:13)[39m
+[0m[1][0m [90m    at prepareExecution (node:internal/process/pre_execution:148:5)[39m
+[0m[1][0m [90m    at prepareMainThreadExecution (node:internal/process/pre_execution:53:10)[39m
+[0m[1][0m [90m    at node:internal/main/run_main_module:11:19[39m
+[0m[1][0m Emitted 'error' event on Worker instance at:
+[0m[1][0m [90m    at process.<anonymous> (node:internal/cluster/worker:32:12)[39m
+[0m[1][0m [90m    at process.emit (node:events:524:28)[39m
+[0m[1][0m     at process.emit [90m(/home/runner/workspace/[39mnode_modules/[4mtsx[24m/dist/suppress-warnings.cjs:1:472[90m)[39m
+[0m[1][0m [90m    at node:internal/child_process:882:39[39m
+[0m[1][0m [90m    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)[39m {
+[0m[1][0m   errno: [33m-32[39m,
+[0m[1][0m   code: [32m'EPIPE'[39m,
+[0m[1][0m   syscall: [32m'write'[39m
+[0m[1][0m }
+[0m[1][0m 
+[0m[1][0m Node.js v20.20.0
+[0m[1][0m [0mnpm run start:server-dev exited with code 1[0m
+[1G[0K⠙[1G[0K

@@ -1,0 +1,1103 @@
+
+> dev
+> cross-env GAME_ENV=dev concurrently "npm run start:client" "npm run start:server-dev"
+
+[1G[0K[0m[0][0m 
+[0m[0][0m > start:client
+[0m[0][0m > vite
+[0m[0][0m 
+[0m[1][0m 
+[0m[1][0m > start:server-dev
+[0m[1][0m > cross-env GAME_ENV=dev tsx src/server/Server.ts
+[0m[1][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/automation/files/tsconfig.json". See below for details. To disable this message, set the [36mignoreConfigErrors[39m option to true.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/expo/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/react-vite/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/slides/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/video-js/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m   [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m1790[22m[2m[0m ms[22m
+[0m[0][0m 
+[0m[0][0m   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+[0m[0][0m   [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.85.34:[1m5000[22m/[39m
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m No OTLP endpoint and credentials provided, remote logging disabled
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m Starting master process...
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Primary 1218 is running","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:02.841Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Setting up 2 workers...","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:02.845Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Instance ID: DEV_ID","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:02.846Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Started worker 0 (PID: 1289)","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:02.855Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Started worker 1 (PID: 1290)","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:02.864Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Master HTTP server listening on port 3000","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:02.872Z"}
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/client/styles.css[22m
+[0m[0][0m [2m1:12:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/client/styles.css[22m
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m No OTLP endpoint and credentials provided, remote logging disabled
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m No OTLP endpoint and credentials provided, remote logging disabled
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m using dev server config
+[0m[1][0m Starting worker process...
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Worker starting...","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.913Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"info","message":"Starting privilege refresher with interval 180000","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.916Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"info","message":"Loading privilege checker","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.917Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"running on http://localhost:3001","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.960Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Handling requests with path prefix /w0/","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.960Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Worker 0 is ready. (1/2 ready)","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.965Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"signaled ready state to master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.966Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"warn","message":"Failed to fetch http://localhost:8787/cosmetics.json: TypeError: fetch failed","service":"openfront","severity":"warn","timestamp":"2026-04-29T01:12:04.975Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"warn","message":"Failed to fetch http://localhost:8787/profane_words_game_server: TypeError: fetch failed","service":"openfront","severity":"warn","timestamp":"2026-04-29T01:12:04.980Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"error","message":"Failed to load privilege checker: Cosmetics HTTP error! status: network error","service":"openfront","severity":"error","stack":"Error: Cosmetics HTTP error! status: network error\n    at PrivilegeRefresher.loadPrivilegeChecker (/home/runner/workspace/src/server/PrivilegeRefresher.ts:67:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2026-04-29T01:12:04.982Z"}
+[0m[1][0m {"comp":"polling","environment":"dev","level":"error","message":"Error in polling loop: Cosmetics HTTP error! status: network error","service":"openfront","severity":"error","stack":"Error: Cosmetics HTTP error! status: network error\n    at PrivilegeRefresher.loadPrivilegeChecker (/home/runner/workspace/src/server/PrivilegeRefresher.ts:67:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2026-04-29T01:12:04.983Z"}
+[0m[1][0m using dev server config
+[0m[1][0m Starting worker process...
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Worker starting...","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.989Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"info","message":"Starting privilege refresher with interval 180000","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.993Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"info","message":"Loading privilege checker","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:04.994Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"running on http://localhost:3002","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.069Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Handling requests with path prefix /w1/","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.070Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"Worker 1 is ready. (2/2 ready)","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.071Z"}
+[0m[1][0m {"comp":"m","environment":"dev","level":"info","message":"All workers ready, starting game scheduling","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.071Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"signaled ready state to master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.074Z"}
+[0m[1][0m {"environment":"dev","level":"info","message":"Generated map playlist in 0 attempts","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.074Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"warn","message":"Failed to fetch http://localhost:8787/cosmetics.json: TypeError: fetch failed","service":"openfront","severity":"warn","timestamp":"2026-04-29T01:12:05.081Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"warn","message":"Failed to fetch http://localhost:8787/profane_words_game_server: TypeError: fetch failed","service":"openfront","severity":"warn","timestamp":"2026-04-29T01:12:05.083Z"}
+[0m[1][0m {"comp":"privilege-refresher","environment":"dev","level":"error","message":"Failed to load privilege checker: Cosmetics HTTP error! status: network error","service":"openfront","severity":"error","stack":"Error: Cosmetics HTTP error! status: network error\n    at PrivilegeRefresher.loadPrivilegeChecker (/home/runner/workspace/src/server/PrivilegeRefresher.ts:67:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2026-04-29T01:12:05.084Z"}
+[0m[1][0m {"comp":"polling","environment":"dev","level":"error","message":"Error in polling loop: Cosmetics HTTP error! status: network error","service":"openfront","severity":"error","stack":"Error: Cosmetics HTTP error! status: network error\n    at PrivilegeRefresher.loadPrivilegeChecker (/home/runner/workspace/src/server/PrivilegeRefresher.ts:67:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2026-04-29T01:12:05.085Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:05.122Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Gulf of St. Lawrence","message":"Failed to load manifest for Gulf of St. Lawrence: Error: Failed to load http://localhost:3000/maps/gulfofstlawrence/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:05.132Z"}
+[0m[1][0m {"environment":"dev","level":"info","message":"Generated map playlist in 0 attempts","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.135Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game mJm6BdFo from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.141Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:05.143Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Pangaea","message":"Failed to load manifest for Pangaea: Error: Failed to load http://localhost:3000/maps/pangaea/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:05.145Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:05.147Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Pangaea","message":"Failed to load manifest for Pangaea: Error: Failed to load http://localhost:3000/maps/pangaea/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:05.149Z"}
+[0m[1][0m {"environment":"dev","level":"info","message":"Generated map playlist in 1 attempts","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.154Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game mcaYgMEY from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.156Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:05.158Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Pluto","message":"Failed to load manifest for Pluto: Error: Failed to load http://localhost:3000/maps/pluto/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:05.160Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:05.165Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Pluto","message":"Failed to load manifest for Pluto: Error: Failed to load http://localhost:3000/maps/pluto/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:05.166Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game 6PW4t3xn from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:05.169Z"}
+[0m[0][0m [2m1:12:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:06.169Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"World","message":"Failed to load manifest for World: Error: Failed to load http://localhost:3000/maps/world/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:06.170Z"}
+[0m[0][0m [2m1:12:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game DevtJVBA from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:06.171Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:06.172Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Baikal","message":"Failed to load manifest for Baikal: Error: Failed to load http://localhost:3000/maps/baikal/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:06.173Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game pZH5JrQG from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:06.174Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:06.176Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Mars","message":"Failed to load manifest for Mars: Error: Failed to load http://localhost:3000/maps/mars/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:06.177Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game ZLzfqC5k from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:06.178Z"}
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/countries.json[33m instead of [36m/resources/countries.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/countries.json?url[33m.[39m
+[0m[0][0m 
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:06.752Z"}
+[0m[0][0m [2m1:12:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:07.262Z"}
+[0m[0][0m [2m1:12:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/countries.json[33m instead of [36m/resources/countries.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/countries.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/lang/en.json[33m instead of [36m/resources/lang/en.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/lang/en.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/lang/metadata.json[33m instead of [36m/resources/lang/metadata.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/lang/metadata.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:12.183Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Montreal","message":"Failed to load manifest for Montreal: Error: Failed to load http://localhost:3000/maps/montreal/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:12.185Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game gvoGYk4z from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:12.186Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:12.188Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Luna","message":"Failed to load manifest for Luna: Error: Failed to load http://localhost:3000/maps/luna/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:12.190Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game YWaN3FM5 from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:12.191Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:12.192Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Strait of Gibraltar","message":"Failed to load manifest for Strait of Gibraltar: Error: Failed to load http://localhost:3000/maps/straitofgibraltar/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:12.194Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game RQ8WBieA from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:12.197Z"}
+[0m[0][0m [2m1:12:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:12.632Z"}
+[0m[0][0m [2m1:12:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:12.660Z"}
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/bigsmoke.png[33m instead of [36m/resources/sprites/bigsmoke.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/bigsmoke.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/buildingExplosion.png[33m instead of [36m/resources/sprites/buildingExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/buildingExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/conquestSword.png[33m instead of [36m/resources/sprites/conquestSword.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/conquestSword.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/dust.png[33m instead of [36m/resources/sprites/dust.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/dust.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/miniExplosion.png[33m instead of [36m/resources/sprites/miniExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/miniExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/minifire.png[33m instead of [36m/resources/sprites/minifire.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/minifire.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/nukeExplosion.png[33m instead of [36m/resources/sprites/nukeExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/nukeExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/samExplosion.png[33m instead of [36m/resources/sprites/samExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/samExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/sinkingShip.png[33m instead of [36m/resources/sprites/sinkingShip.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/sinkingShip.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/smoke.png[33m instead of [36m/resources/sprites/smoke.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/smoke.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/smokeAndFire.png[33m instead of [36m/resources/sprites/smokeAndFire.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/smokeAndFire.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/unitExplosion.png[33m instead of [36m/resources/sprites/unitExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/unitExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m [2m1:12:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+[0m[0][0m [2m1:12:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:16 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:16 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/lang/en.json[33m instead of [36m/resources/lang/en.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/lang/en.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/lang/metadata.json[33m instead of [36m/resources/lang/metadata.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/lang/metadata.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/countries.json[33m instead of [36m/resources/countries.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/countries.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:18.084Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:18.213Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Pluto","message":"Failed to load manifest for Pluto: Error: Failed to load http://localhost:3000/maps/pluto/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:18.215Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game MDu5SvxV from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:18.216Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:18.242Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"East Asia","message":"Failed to load manifest for East Asia: Error: Failed to load http://localhost:3000/maps/eastasia/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:18.244Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:18.249Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"East Asia","message":"Failed to load manifest for East Asia: Error: Failed to load http://localhost:3000/maps/eastasia/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:18.250Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game w6BW32cL from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:18.253Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:18.255Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"World","message":"Failed to load manifest for World: Error: Failed to load http://localhost:3000/maps/world/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:18.257Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game yFRNCAsk from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:18.258Z"}
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:18.528Z"}
+[0m[0][0m [2m1:12:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m (repeated 3 times)
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/bigsmoke.png[33m instead of [36m/resources/sprites/bigsmoke.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/bigsmoke.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/buildingExplosion.png[33m instead of [36m/resources/sprites/buildingExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/buildingExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/conquestSword.png[33m instead of [36m/resources/sprites/conquestSword.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/conquestSword.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/dust.png[33m instead of [36m/resources/sprites/dust.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/dust.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/miniExplosion.png[33m instead of [36m/resources/sprites/miniExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/miniExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/minifire.png[33m instead of [36m/resources/sprites/minifire.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/minifire.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/nukeExplosion.png[33m instead of [36m/resources/sprites/nukeExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/nukeExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/samExplosion.png[33m instead of [36m/resources/sprites/samExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/samExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/sinkingShip.png[33m instead of [36m/resources/sprites/sinkingShip.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/sinkingShip.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/smoke.png[33m instead of [36m/resources/sprites/smoke.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/smoke.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/smokeAndFire.png[33m instead of [36m/resources/sprites/smokeAndFire.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/smokeAndFire.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/sprites/unitExplosion.png[33m instead of [36m/resources/sprites/unitExplosion.png[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/sprites/unitExplosion.png?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m [2m1:12:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+[0m[0][0m [2m1:12:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:23 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:23.482Z"}
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:24.260Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Lisbon","message":"Failed to load manifest for Lisbon: Error: Failed to load http://localhost:3000/maps/lisbon/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:24.261Z"}
+[0m[0][0m [2m1:12:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game jyw7h1wj from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:24.262Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:24.264Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Bosphorus Straits","message":"Failed to load manifest for Bosphorus Straits: Error: Failed to load http://localhost:3000/maps/bosphorusstraits/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:24.265Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game G2rkwahY from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:24.266Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:24.267Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Los Angeles","message":"Failed to load manifest for Los Angeles: Error: Failed to load http://localhost:3000/maps/losangeles/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:24.268Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:24.270Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Los Angeles","message":"Failed to load manifest for Los Angeles: Error: Failed to load http://localhost:3000/maps/losangeles/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:24.271Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game YdUe2mzw from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:24.272Z"}
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:24.407Z"}
+[0m[0][0m [2m1:12:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:26 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:28.878Z"}
+[0m[0][0m [2m1:12:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:29 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:29 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+[0m[0][0m [2m1:12:29 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:29 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:30.280Z"}
+[0m[0][0m [2m1:12:30 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Four Islands","message":"Failed to load manifest for Four Islands: Error: Failed to load http://localhost:3000/maps/fourislands/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:30.282Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game mxWcFHkT from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:30.283Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:30.285Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Italia","message":"Failed to load manifest for Italia: Error: Failed to load http://localhost:3000/maps/italia/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:30.286Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:30.288Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game ZgrbZhL9 from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:30.288Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Alps","message":"Failed to load manifest for Alps: Error: Failed to load http://localhost:3000/maps/alps/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:30.289Z"}
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:30.290Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:30.290Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Alps","message":"Failed to load manifest for Alps: Error: Failed to load http://localhost:3000/maps/alps/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:30.291Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game 8oDPiAhm from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:30.292Z"}
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:30 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m [2m1:12:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+[0m[0][0m [2m1:12:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:33 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:34.288Z"}
+[0m[0][0m [2m1:12:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:36.169Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:36.298Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Surrounded","message":"Failed to load manifest for Surrounded: Error: Failed to load http://localhost:3000/maps/surrounded/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:36.299Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game j33tKqMp from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:36.300Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:36.302Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Surrounded","message":"Failed to load manifest for Surrounded: Error: Failed to load http://localhost:3000/maps/surrounded/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:36.303Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:36.304Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Surrounded","message":"Failed to load manifest for Surrounded: Error: Failed to load http://localhost:3000/maps/surrounded/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:36.305Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game rQej2kTF from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:36.305Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:36.306Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Surrounded","message":"Failed to load manifest for Surrounded: Error: Failed to load http://localhost:3000/maps/surrounded/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:36.307Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:36.309Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Surrounded","message":"Failed to load manifest for Surrounded: Error: Failed to load http://localhost:3000/maps/surrounded/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:36.310Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game QDLzAYCQ from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:36.310Z"}
+[0m[0][0m [2m1:12:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m (repeated 2 times)
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:39.684Z"}
+[0m[0][0m [2m1:12:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"mcaYgMEY","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:41.928Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"mcaYgMEY","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:41.929Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"6PW4t3xn","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:41.930Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"6PW4t3xn","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:41.930Z"}
+[0m[0][0m [2m1:12:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"mJm6BdFo","level":"info","message":"ending game with 278 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:42.015Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"mJm6BdFo","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:42.015Z"}
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:42.050Z"}
+[0m[0][0m [2m1:12:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m [2m1:12:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:42.315Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Alps","message":"Failed to load manifest for Alps: Error: Failed to load http://localhost:3000/maps/alps/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:42.317Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game hg3DdUu6 from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:42.320Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:42.330Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Mediterranean","message":"Failed to load manifest for Mediterranean: Error: Failed to load http://localhost:3000/maps/mediterranean/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:42.332Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game qH1Mm91P from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:42.335Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:42.338Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Between Two Seas","message":"Failed to load manifest for Between Two Seas: Error: Failed to load http://localhost:3000/maps/betweentwoseas/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:42.341Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:42.344Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Between Two Seas","message":"Failed to load manifest for Between Two Seas: Error: Failed to load http://localhost:3000/maps/betweentwoseas/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:42.346Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game 5otY1qhm from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:42.350Z"}
+[0m[0][0m [2m1:12:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m [2m1:12:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.cache/replit/toolchain.json[22m
+[0m[0][0m [2m1:12:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.cache/replit/env/latest[22m
+[0m[0][0m [2m1:12:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.cache/replit/env/latest.json[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:43 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:43 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:45.083Z"}
+[0m[0][0m [2m1:12:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"DevtJVBA","level":"info","message":"ending game with 278 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:47.939Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"DevtJVBA","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:47.939Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"ZLzfqC5k","level":"info","message":"ending game with 278 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:47.939Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"ZLzfqC5k","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:47.939Z"}
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:47.940Z"}
+[0m[0][0m [2m1:12:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"pZH5JrQG","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:48.018Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"pZH5JrQG","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:48.018Z"}
+[0m[0][0m [2m1:12:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:48.355Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Australia","message":"Failed to load manifest for Australia: Error: Failed to load http://localhost:3000/maps/australia/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:48.356Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game H6VTygJF from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:48.357Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:48.359Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Arctic","message":"Failed to load manifest for Arctic: Error: Failed to load http://localhost:3000/maps/arctic/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:48.360Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game qAmZiEPp from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:48.361Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:48.363Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Sierpinski","message":"Failed to load manifest for Sierpinski: Error: Failed to load http://localhost:3000/maps/sierpinski/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:48.364Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:48.366Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Sierpinski","message":"Failed to load manifest for Sierpinski: Error: Failed to load http://localhost:3000/maps/sierpinski/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:48.367Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game 9nbjavpq from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:48.367Z"}
+[0m[0][0m [2m1:12:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:50.480Z"}
+[0m[0][0m [2m1:12:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:53.824Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"YWaN3FM5","level":"info","message":"ending game with 278 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:53.940Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"YWaN3FM5","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:53.940Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"gvoGYk4z","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:54.026Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"gvoGYk4z","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:54.026Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"RQ8WBieA","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:54.026Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"RQ8WBieA","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:54.026Z"}
+[0m[0][0m [2m1:12:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:54.394Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"MilkyWay","message":"Failed to load manifest for MilkyWay: Error: Failed to load http://localhost:3000/maps/milkyway/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:54.396Z"}
+[0m[0][0m [2m1:12:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game P7WeYBhM from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:54.398Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:54.403Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"World","message":"Failed to load manifest for World: Error: Failed to load http://localhost:3000/maps/world/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:54.404Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:54.406Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"World","message":"Failed to load manifest for World: Error: Failed to load http://localhost:3000/maps/world/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:54.407Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game VUrCfkXo from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:54.413Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:54.426Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Asia","message":"Failed to load manifest for Asia: Error: Failed to load http://localhost:3000/maps/asia/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:54.434Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:12:54.448Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Asia","message":"Failed to load manifest for Asia: Error: Failed to load http://localhost:3000/maps/asia/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:12:54.449Z"}
+[0m[0][0m [2m1:12:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game SEkt5cUm from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:54.451Z"}
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:55.877Z"}
+[0m[0][0m [2m1:12:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:56 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:57 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:57 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:58 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:12:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:12:59.708Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"MDu5SvxV","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:59.939Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"MDu5SvxV","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:59.940Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"w6BW32cL","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:59.940Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"w6BW32cL","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:12:59.940Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"yFRNCAsk","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:00.029Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"yFRNCAsk","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:00.029Z"}
+[0m[0][0m [2m1:12:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m [2m1:13:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:00.453Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Aegean","message":"Failed to load manifest for Aegean: Error: Failed to load http://localhost:3000/maps/aegean/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:00.454Z"}
+[0m[0][0m [2m1:13:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game ZHDrHxxd from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:00.454Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:00.456Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Luna","message":"Failed to load manifest for Luna: Error: Failed to load http://localhost:3000/maps/luna/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:00.458Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game XeFnUjhk from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:00.459Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:00.460Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"ArchipelagoSea","message":"Failed to load manifest for ArchipelagoSea: Error: Failed to load http://localhost:3000/maps/archipelagosea/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:00.461Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:00.463Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"ArchipelagoSea","message":"Failed to load manifest for ArchipelagoSea: Error: Failed to load http://localhost:3000/maps/archipelagosea/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:00.464Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game TxHrY4M2 from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:00.465Z"}
+[0m[0][0m [2m1:13:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+[0m[0][0m [2m1:13:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:01 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:13:01.273Z"}
+[0m[0][0m [2m1:13:01 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:01 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:02 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/news.json[33m instead of [36m/resources/news.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/news.json?url[33m.[39m
+[0m[0][0m 
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:13:05.588Z"}
+[0m[0][0m [2m1:13:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"jyw7h1wj","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:06.030Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"jyw7h1wj","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:06.030Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"G2rkwahY","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:06.030Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"G2rkwahY","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:06.030Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"YdUe2mzw","level":"info","message":"ending game with 279 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:06.031Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","gameID":"YdUe2mzw","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:06.031Z"}
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:06.472Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Lisbon","message":"Failed to load manifest for Lisbon: Error: Failed to load http://localhost:3000/maps/lisbon/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:06.473Z"}
+[0m[1][0m {"comp":"w_1","environment":"dev","level":"info","message":"Creating public game BUzxgfwB from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:06.474Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:06.480Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"MilkyWay","message":"Failed to load manifest for MilkyWay: Error: Failed to load http://localhost:3000/maps/milkyway/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:06.481Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game qQMBVe2R from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:06.481Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:06.484Z"}
+[0m[0][0m [2m1:13:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Traders Dream","message":"Failed to load manifest for Traders Dream: Error: Failed to load http://localhost:3000/maps/tradersdream/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:06.485Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game hvqc6tnt from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:06.486Z"}
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:13:06.670Z"}
+[0m[0][0m [2m1:13:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m [2m1:13:08 AM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[0m[0][0m [2m1:13:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/version.txt?raw[33m instead of [36m/resources/version.txt?raw[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/version.txt?url&raw[33m.[39m
+[0m[0][0m 
+[0m[0][0m [2m1:13:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/XKl5HGLUJmAJ3xPfoVSNm/start_application.shell.exec.0[22m
+[0m[0][0m [2m1:13:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/automation/files/tsconfig.json". See below for details. To disable this message, set the [36mignoreConfigErrors[39m option to true.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/expo/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/react-vite/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/slides/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m 
+[0m[0][0m [41m[30m ERROR [39m[49m [tsconfig-paths] An error occurred while parsing "/home/runner/workspace/.local/skills/artifacts/artifacts/video-js/files/tsconfig.json". See below for details.
+[0m[0][0m 
+[0m[0][0m [2m1:13:09 AM[22m [36m[1m[vite][22m[39m server restarted.
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_0","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:13:11.468Z"}
+[0m[0][0m 
+[0m[0][0m [43m[30m WARN [39m[49m [33mAssets in public directory cannot be imported from JavaScript.
+[0m[0][0m If you intend to import that asset, put the file in the src directory, and use [36m/src/QuickChat.json[33m instead of [36m/resources/QuickChat.json[33m.
+[0m[0][0m If you intend to use the URL of that asset, use [36m/QuickChat.json?url[33m.[39m
+[0m[0][0m 
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"mxWcFHkT","level":"info","message":"ending game with 278 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:11.956Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"mxWcFHkT","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:11.956Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"ZgrbZhL9","level":"info","message":"ending game with 278 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:11.956Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"ZgrbZhL9","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:11.956Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"8oDPiAhm","level":"info","message":"ending game with 278 turns","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:11.956Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","gameID":"8oDPiAhm","level":"info","message":"no clients joined, not archiving game","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:11.956Z"}
+[0m[1][0m {"cause":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":8787,"syscall":"connect"},"comp":"w_1","environment":"dev","level":"error","message":"Error polling lobby: fetch failed","service":"openfront","severity":"error","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:14902:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async <anonymous> (/home/runner/workspace/src/server/Worker.ts:571:26)","timestamp":"2026-04-29T01:13:12.066Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:12.494Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Japan","message":"Failed to load manifest for Japan: Error: Failed to load http://localhost:3000/maps/japan/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:12.495Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game VrTbN8XF from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:12.496Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:12.497Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Baikal","message":"Failed to load manifest for Baikal: Error: Failed to load http://localhost:3000/maps/baikal/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:12.498Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:12.499Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"Baikal","message":"Failed to load manifest for Baikal: Error: Failed to load http://localhost:3000/maps/baikal/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:12.500Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game oWgUoqt8 from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:12.501Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:12.502Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"MilkyWay","message":"Failed to load manifest for MilkyWay: Error: Failed to load http://localhost:3000/maps/milkyway/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:12.503Z"}
+[0m[1][0m {"code":"ENOENT","comp":"m","environment":"dev","errno":-2,"level":"error","message":"Error rendering SPA fallback: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'","path":"/home/runner/workspace/static/index.html","service":"openfront","severity":"error","stack":"Error: ENOENT: no such file or directory, open '/home/runner/workspace/static/index.html'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.readFile (node:internal/fs/promises:1236:14)\n    at async renderHtmlContent (/home/runner/workspace/src/server/RenderHtml.ts:14:23)\n    at async renderAppShell (/home/runner/workspace/src/server/RenderHtml.ts:79:20)\n    at async <anonymous> (/home/runner/workspace/src/server/Master.ts:164:5)","syscall":"open","timestamp":"2026-04-29T01:13:12.504Z"}
+[0m[1][0m {"component":"MapLandTiles","environment":"dev","level":"error","map":"MilkyWay","message":"Failed to load manifest for MilkyWay: Error: Failed to load http://localhost:3000/maps/milkyway/manifest.json: Internal Server Error","service":"openfront","severity":"error","timestamp":"2026-04-29T01:13:12.505Z"}
+[0m[1][0m {"comp":"w_0","environment":"dev","level":"info","message":"Creating public game ADgZxSQf from master","service":"openfront","severity":"info","timestamp":"2026-04-29T01:13:12.505Z"}
+[0m[1][0m [0mnpm run start:server-dev exited with code SIGHUP[0m
+[0m[0][0m [0mnpm run start:client exited with code SIGHUP[0m
